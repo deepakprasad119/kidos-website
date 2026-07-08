@@ -410,7 +410,9 @@ footer.site .copyright { color: var(--ink-soft); font-size: 0.85rem; }
 .content-wrap h2 { text-align: left; font-size: 1.4rem; margin-top: 44px; }
 .content-wrap h3 { color: var(--indigo-dark); font-size: 1.1rem; margin-top: 28px; }
 .content-wrap p, .content-wrap li { color: var(--ink); font-size: 1rem; }
-.content-wrap ul { padding-left: 22px; }
+.content-wrap ul, .content-wrap ol { padding-left: 22px; }
+.content-wrap ol li { margin-bottom: 14px; }
+.content-wrap ol li:last-child { margin-bottom: 0; }
 
 .callout {
   border-radius: var(--radius);
